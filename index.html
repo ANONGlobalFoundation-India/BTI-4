@@ -115,7 +115,7 @@ $("list").innerHTML=view==="c"?`<div class="grid">${r.map(card).join("")}</div>`
 [["vc","c"],["vt","t"]].forEach(([id,v])=>$(id).addEventListener("click",()=>{view=v;$("vc").setAttribute("aria-pressed",v==="c");$("vt").setAttribute("aria-pressed",v==="t");render()}));
 render();
 // EC
-const grp=[["Executive leadership","lead2"],["Leadership facilitation",""],["Intern leadership (EC - IL)",""]];
+const grp=[["Executive leadership","lead2"],["Leadership facilitation",""],["Innovation leadership (EC - IL)",""]];
 const ecg=e=>e.area==="Executive leadership"?0:e.area==="Leadership facilitation"?1:2;
 $("ec").innerHTML=grp.map((g,k)=>`<h3>${g[0]}</h3><div class="grid">${D.ec.filter(e=>ecg(e)===k).map(e=>`<div class="card ecg ${g[1]}"><div class="row"><div class="av" aria-hidden="true">${esc(ini(e.name))}</div><div><h4>${esc(e.name)}</h4><span class="sub">${esc(e.role)}</span></div></div><p class="sub">${esc(e.area)}</p></div>`).join("")}</div>`).join("");
 $("teams").innerHTML=TEAMS.map(t=>`<h3>${t}</h3><div class="grid">${I.filter(i=>i.team===t).map(i=>`<div class="card"><div class="row"><div class="av" aria-hidden="true">${esc(ini(i.name))}</div><div><h4>${esc(i.name)}</h4><span class="sub">${esc(i.institution||"Institution: Not provided")}</span></div></div></div>`).join("")}</div>`).join("");
