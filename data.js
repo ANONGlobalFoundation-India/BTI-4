@@ -257,7 +257,7 @@ window.BTI4_DATA = {
    "name": "Lalita Dubey",
    "team": "Team Impact",
    "institution": "Urverdure Pvt. Ltd. / NSUT",
-   "grade": "A",
+   "grade": "O",
    "total": 7,
    "categories": {
     "Educators Chronicle": 1,
@@ -288,7 +288,7 @@ window.BTI4_DATA = {
    "name": "Gaurika",
    "team": "Team Impact",
    "institution": "Aravali International School, Sector 85",
-   "grade": "A",
+   "grade": "O",
    "total": 14,
    "categories": {
     "Interns Chronicle": 1,
@@ -301,15 +301,6 @@ window.BTI4_DATA = {
     "Presentation": 1
    },
    "rationale": "Recognized for meaningful, solid participation across the available work categories. Recorded contributions: 14 — 12 core (1 Interns Chronicle, 4 Scripting, 1 Promotional Reels, 3 Moderation, 1 Chat Moderation, 2 Snapshots); 2 additional (1 Workshop, 1 Presentation). Workbook comment notes moderation in Interns Chronicles."
-  },
-  {
-   "name": "Chiranjit Mandal",
-   "team": "Team Impact",
-   "institution": "Kalka Public School",
-   "grade": "B",
-   "total": 0,
-   "categories": {},
-   "rationale": "The available records show a limited number of completed contributions during the assessment period; this reflects documented output, not a judgment of potential. No contributions are recorded for this intern in the assessment-period records."
   },
   {
    "name": "Japleen Kaur",
@@ -380,14 +371,14 @@ window.BTI4_DATA = {
    "name": "Swaingel Seth",
    "team": "Team Expression",
    "institution": "JIIT, Noida",
-   "grade": "A",
+   "grade": "B",
    "total": 5,
    "categories": {
     "Moderation": 3,
     "ANONTalks": 1,
     "Workshop": 1
    },
-   "rationale": "Recognized for meaningful, solid participation across the available work categories. Recorded contributions: 5 — 4 core (3 Moderation, 1 ANONTalks); 1 additional (1 Workshop)."
+   "rationale": "Recognized for Mediocre, average participation across the available work categories. Recorded contributions: 5 — 4 core (3 Moderation, 1 ANONTalks); 1 additional (1 Workshop)."
   },
   {
    "name": "Vanshika Chandna",
